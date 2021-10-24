@@ -1,0 +1,36 @@
+body{
+    background-color: #fbd139;
+}
+
+h1{
+    color: navy;
+    background-color: rgb(250, 239, 89);
+    margin: 0;
+}
+
+#show-sketch{
+    float: right;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: ck;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count : infinite;
+}
+
+@keyframes ck{
+    from {box-shadow: 2px 2px 37px purple;}
+    to {box-shadow: 2px 2px 37px red;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
